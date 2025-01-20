@@ -1,0 +1,17 @@
+.pc-ui-table-page .el-table thead {
+  background: #e5eaf9;
+}
+.pc-ui-table-page .el-table thead th,
+.pc-ui-table-page .el-table thead tr {
+  background: #e5eaf9;
+  color: #7b83a2;
+  font-weight: 600;
+  font-size: 14px;
+  color: #8d9bce;
+  font-family:
+    Microsoft YaHei,
+    Microsoft YaHei;
+}
+.pc-ui-table-page .el-table__header-wrapper {
+  border-radius: 8px;
+}

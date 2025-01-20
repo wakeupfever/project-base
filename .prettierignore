@@ -1,0 +1,6 @@
+dist
+*.md
+*.html
+pnpm.lock
+npm.lock
+yarn.lock

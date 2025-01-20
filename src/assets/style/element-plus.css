@@ -1,0 +1,49 @@
+/* element-plus */
+.el-pagination {
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+}
+.el-pager .is-active {
+  background-color: var(--el-color-primary);
+}
+
+.el-pager .number {
+  border-radius: 8px;
+}
+
+.el-table .el-table__cell {
+  z-index: auto;
+}
+
+/* element-dialog */
+.el-overlay-dialog .el-dialog {
+  --el-dialog-title-font-size: 18px;
+  --el-dialog-title-font-color: #154480;
+  border-radius: 10px;
+  padding: 0;
+  .el-dialog__header {
+    padding: var(--el-dialog-padding-primary);
+    background: url('@/assets/images/dialog-header.png') no-repeat;
+    background-size: 100% 100%;
+    .el-dialog__title {
+      font-size: var(--el-dialog-title-font-size);
+      line-height: 20px;
+      color: var(--el-dialog-title-font-color);
+      font-weight: bold;
+    }
+    .el-dialog__headerbtn {
+      top: var(--el-dialog-padding-primary);
+      right: var(--el-dialog-padding-primary);
+      width: inherit;
+      height: inherit;
+      .el-dialog__close {
+        font-size: 20px;
+        color: white;
+      }
+    }
+  }
+  .el-dialog__body {
+    padding: var(--el-dialog-padding-primary);
+  }
+}

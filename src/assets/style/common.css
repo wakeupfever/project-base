@@ -1,0 +1,14 @@
+/* color palette from <https://github.com/vuejs/theme> */
+/* 覆盖element-plus */
+:root {
+  --el-color-primary: #2267c0;
+  --el-color-primary-light-3: #2267c0d1;
+  --el-border-color: #c6cfe0;
+  --el-text-color-regular: #154480;
+}
+
+/* 项目基础样式 */
+:root {
+  --theme-color: #154480;
+  --theme-bg-color: #2267c0;
+}
